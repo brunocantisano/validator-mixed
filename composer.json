@@ -1,5 +1,5 @@
 {
-    "name": "bccdevel/validator-mixed",
+    "name": "brunocantisano/validator-mixed",
     "description": "Uma biblioteca contendo validações de formatos Brasileiros, para o Laravel 5",
     "license" : "MIT",
     "authors": [
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ValidatorMixed\\BccDevelValidator\\": "src/validator-mixed"
+            "BrunoCantisano\\ValidatorMixed\\": "src/validator-mixed"
         }
     },
     "minimum-stability": "stable",

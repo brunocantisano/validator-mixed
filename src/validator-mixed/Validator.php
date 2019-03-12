@@ -1,6 +1,6 @@
 <?php 
 
-namespace ValidatorMixed\BccDevelValidator;
+namespace BrunoCantisano\ValidatorMixed;
 
 use Illuminate\Validation\Validator as BaseValidator;
 
@@ -151,7 +151,7 @@ class Validator extends BaseValidator
         } 
 
         // Remove sequências repetidas como "111111111111"
-        // https://github.com/ValidatorMixed/bcc-devel-validator/issues/4
+        // https://github.com/BrunoCantisano/ValidatorMixed/issues/4
 
         elseif (preg_match("/^{$c[0]}{14}$/", $c) > 0) {
 

@@ -1,13 +1,13 @@
 <?php
 
-use ValidatorMixed\BccDevelValidator\Validator;
+use BrunoCantisano\ValidatorMixed\Validator;
 
 class TestValidator extends Orchestra\Testbench\TestCase
 {
 
     protected function getPackageProviders($app)
     {
-        return ['ValidatorMixed\BccDevelValidator\ValidatorProvider'];
+        return ['BrunoCantisano\ValidatorMixed\ValidatorProvider'];
     }
     
     public function testTelefoneComDdd()

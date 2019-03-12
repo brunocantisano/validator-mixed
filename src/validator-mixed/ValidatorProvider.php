@@ -1,6 +1,6 @@
 <?php 
 
-namespace ValidatorMixed\BccDevelValidator;
+namespace BrunoCantisano\ValidatorMixed;
 
 use Illuminate\Support\ServiceProvider;
 

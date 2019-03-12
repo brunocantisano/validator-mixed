@@ -1,8 +1,9 @@
 # Laravel 5 - Validações em Português
 
-Esta é uma biblioteca com algumas validações brasileiras.
+Esta é uma biblioteca com validações brasileiras:
+PIS,PASEP,celular,celular_com_ddd,cnh,cnpj,cpf,cpf_cnpj,nis,data,formato_cnpj,formato_cpf,formato_cpf_cnpj,formato_nis,telefone,telefone_com_ddd,formato_cep,formato_placa_de_veiculo,titulo_eleitor
 
-[![Build Status](https://travis-ci.org/LaravelLegends/pt-br-validator.svg?branch=master)](https://travis-ci.org/LaravelLegends/pt-br-validator)
+[![Build Status](https://travis-ci.org/brunocantisano/validator-mixed.svg?branch=master)](https://travis-ci.org/brunocantisano/validator-mixed)
 
 ## Instalação
 
@@ -15,7 +16,7 @@ cd /etc/www/projeto
 E então execute:
 
 ```
-composer require validatormixed\bccdevelvalidator:1.0.* --no-scripts
+composer require brunocantisano\validator-mixed:1.0.* --no-scripts
 ```
 
 Ou então adicione no arquivo `composer.json`, adicione no seu `"require":`, exemplo:
@@ -23,7 +24,7 @@ Ou então adicione no arquivo `composer.json`, adicione no seu `"require":`, exe
 ```json
 {
     "require": {
-        "validatormixed/bccdevelvalidator": "1.0.*"
+        "brunocantisano/validator-mixed": "1.0.*"
     }
 }
 ```
@@ -34,7 +35,7 @@ Após a instalação, adicione no arquivo `config/app.php` a seguinte linha:
 
 ```php
 
-ValidatorMixed\BccDevelValidator\ValidatorProvider::class
+brunocantisano\validator-mixed\ValidatorProvider::class
 
 ```
 
