@@ -6,6 +6,6 @@ abstract class ValidatorTestCase extends Orchestra\Testbench\TestCase
 	{
 		parent::setUp();
 
-		$this->app->register(\ValidatorMixed\BccDevelValidator\ValidatorProvider::class);
+		$this->app->register(\BrunoCantisano\ValidatorMixed\ValidatorProvider::class);
 	}
 }
